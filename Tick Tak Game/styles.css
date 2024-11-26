@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(204, 44, 71) ;
+    text-shadow: 5px 5px 6px rgba(109, 105, 105, 0.7);
+    font-family: sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149051587.jpg?semt=ais_hybrid");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 3px solid rgb(204, 44, 71);
+    background-color: rgb(245, 165, 192);
+    font-size: 8vmin;
+    color: aliceblue;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 11px;
+    background-color:  rgb(204, 44, 71);
+    color: whitesmoke;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 11px;
+    background-color:  rgb(204, 44, 71);
+    color: whitesmoke;
+    border: none;
+}
+
+#message{
+    color: rgb(204, 44, 71) ;
+    font-size: 5vmin;
+}
+
+.message-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
